@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+*.iml
+kotlinc.xml
+misc.xml
+modules.xml
+vcs.xml
+
+
+# Build output
+../out
+../core-java-practice.iml
+
