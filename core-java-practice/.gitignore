@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build output
+out/
+
+# IntelliJ specific files (optional but fine)
+workspace.xml
+kotlinc.xml
+misc.xml
+modules.xml
+vcs.xml
