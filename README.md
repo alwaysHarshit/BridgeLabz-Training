@@ -12,4 +12,6 @@
 - ✅ Completed Level 2 Assignment of control flow core java
 
 **Date: 2025-12-20**
-- ✅ Completed Level 3 Assignment of control flow core java
+- ✅ Completed Level 3 Assignment of control flow core java- 
+- ✅ Completed Level 1 and Level2  Assignment of arrays java
+- ✅ Completed Seceniro based questions java
