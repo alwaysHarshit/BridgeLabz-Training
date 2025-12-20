@@ -6,3 +6,10 @@
 
 - ✅ Completed Level 1 Assignment
 - ✅ Completed Level 2 Assignment" 
+
+**Date: 2025-12-19**
+- ✅ Completed Level 1 Assignment of control flow core java
+- ✅ Completed Level 2 Assignment of control flow core java
+
+**Date: 2025-12-20**
+- ✅ Completed Level 3 Assignment of control flow core java
