@@ -1,4 +1,7 @@
+package level3;
+
 import java.util.Scanner;
+
 
 public class anagramChecker {
     public static void main(String[] args) {
