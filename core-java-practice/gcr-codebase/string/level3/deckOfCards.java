@@ -1,5 +1,3 @@
-package level3;
-
 import java.util.Scanner;
 import java.util.Random;
 
