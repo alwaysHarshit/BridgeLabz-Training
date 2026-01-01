@@ -1,3 +1,5 @@
+package level2;
+
 public class OnlineCourseManagement {
     private String courseName;
     private int duration;

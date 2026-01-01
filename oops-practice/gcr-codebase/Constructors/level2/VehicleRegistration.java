@@ -1,3 +1,5 @@
+package level2;
+
 public class VehicleRegistration {
     private String ownerName;
     private String vehicleType;
