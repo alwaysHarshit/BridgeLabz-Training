@@ -50,3 +50,17 @@
 
 ✅ Added SnakeLadder to scenario-based programs in core Java practice
 ✅ Added StringExtras programs: longestWord, palindrome, removeDuplicate, reverse, subStringOccurrence, and v&c to core Java practice
+
+
+**Date: 2026-01-01**
+
+✅Organize Level 1 and Level 2 OOP practice files into appropriate packages
+✅ Add this, static and final keyword assignment
+
+**Date: 2026-01-02**
+
+✅ Add the OOP design principle diagrams of classes
+
+**Date: 2026-01-03**
+
+✅ Add Level 3 OOP inheritance practice examples with class implementations
