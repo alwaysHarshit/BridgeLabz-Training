@@ -65,6 +65,14 @@
 
 ✅ Add Level 3 OOP inheritance practice examples with class implementations
 
-**Date: 2026-01-06**
+**Date: 2026-01-05**
+✅create a new branch name review and push code of add the 2 matrix
 
+**Date: 2026-01-06**
 ✅focusing on encapsulation, polymorphism, interfaces, and abstract classes with real-world systems.
+
+**Date: 2026-01-07**
+✅ add scenario-based OOP examples for Online Banking and Cab Booking systems
+
+**Date: 2026-01-08**
+✅ create a new branch name dsa-pratice and solve the problems of dsa
