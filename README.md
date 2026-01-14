@@ -76,3 +76,12 @@
 
 **Date: 2026-01-08**
 ✅ create a new branch name dsa-pratice and solve the problems of dsa
+
+**Date: 2026-01-12**
+✅ revise the concepts of core java and object orientd programming 
+
+**Date: 2026-01-13**
+✅ praticed to create merge conflits and try to resolve the merge confilts
+
+**Date: 2026-01-14**
+✅ solved the problems of stack, queue and hashMap
