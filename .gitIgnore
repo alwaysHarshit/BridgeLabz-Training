@@ -21,7 +21,9 @@ build/
 .idea/usage.statistics.xml
 .idea/shelf/
 *.iws
+.idea/
 
+BridgeLabz-Training.iml
 # OS specific
 .DS_Store
 Thumbs.db
