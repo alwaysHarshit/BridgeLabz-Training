@@ -1,4 +1,4 @@
-package com.java.GENERICS;
+package generics;
 
 
 interface MealPlanner { String getName(); }
