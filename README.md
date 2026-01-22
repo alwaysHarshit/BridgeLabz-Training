@@ -85,3 +85,14 @@
 
 **Date: 2026-01-14**
 ✅ solved the problems of stack, queue and hashMap
+
+**Date: 2026-01-16**
+✅ Add scenario-based OOP examples for digital wallet, hospital management, traffic management, online examination system, library arrangement, and book management models.
+
+
+**Date: 2026-01-19**
+✅ Add new Linear and Binary Search DSA problems and file-handling utilities and also
+Add implementation of sorting algorithms: CountingSort, HeapSort, InsertionSort, MergeSort, QuickSort, and SelectionSort
+
+**Date: 2026-01-20**
+✅ Add runtime analysis utilities: compare search, sorting, Fibonacci, file reading, and string concatenation algorithms
