@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/control-flow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/programming-elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/scenario-based" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/string" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/builtIn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oops-practice/gcr-codebase/ClassesAndObjects/level1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oops-practice/gcr-codebase/ClassesAndObjects/level2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core-java-practice/gcr-codebase/StringExtras" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oops-practice/gcr-codebase/ThisStaticFinal/Level-1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/review" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oops-practice/scenario-based/story-based" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dsa-pratice/gcr-codebase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oops-practice/gcr-codebase/AddressbookProblem" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collection-framework/gcr-codebase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dsa-pratice/scenerio-based" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collection-framework/scenerio-based" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
