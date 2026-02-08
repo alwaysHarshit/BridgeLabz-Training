@@ -1,3 +1,5 @@
+package exception.handling;
+
 public class ExceptionPropagationDemo {
 
     public static void method1() {

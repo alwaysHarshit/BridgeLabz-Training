@@ -1,3 +1,5 @@
+package exception.handling;
+
 public class InterestCalculator {
 
     public static double calculateInterest(double amount, double rate, int years) throws IllegalArgumentException {

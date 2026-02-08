@@ -1,3 +1,5 @@
+package exception.handling;
+
 import java.util.Scanner;
 
 public class ArrayOperation {

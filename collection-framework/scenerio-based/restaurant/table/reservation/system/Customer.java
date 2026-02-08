@@ -1,8 +1,7 @@
 package restaurant.table.reservation.system;
 
-public class Customer implements CustomerMethod {
-    @Override
-    public String reserveTable() {
-        return "";
+public class Customer extends TableAlreadyReservedException {
+    public Customer(String message) {
+        super(message);
     }
 }
