@@ -1,0 +1,65 @@
+[
+    {
+        "userID":"wlw.ava_",
+        "name":"ava",
+        "age":21,
+        "phone number":"1234567890",
+        "email":"ava@google.com"
+    },
+    {
+        "userID":"jennierubyjane",
+        "name":"jennie",
+        "age":25,
+        "phone number":"1472583690",
+        "email":"jennie@google.com"
+    },
+    {
+        "userID":"lalalaisa_m",
+        "name":"Lisa",
+        "age":24,
+        "phone number":"15935748620",
+        "email":"lisa@google.com"
+    },
+    {
+        "userID":"v_for_violet",
+        "name":"Violet",
+        "age":25,
+        "phone number":"7485129563",
+        "email":"violet@google.com"
+    },
+    {
+        "userID":"roses_are_rosie",
+        "name":"Rosie",
+        "age":24,
+        "phone number":"5719328640",
+        "email":"rosie@google.com"
+    },
+    {
+        "userID":"sooyaaa_",
+        "name":"Jisoo",
+        "age":26,
+        "phone number":"9638527410",
+        "email":"jisoo@google.com"
+    },
+    {
+        "userID":"cupcait",
+        "name":"Caitlyn",
+        "age":26,
+        "phone number":"9845214762",
+        "email":"caitlyn@google.com"
+    },
+    {
+        "userID":"mitsuki.sings._",
+        "name":"Mitsuki",
+        "age":22,
+        "phone number":"8475156824",
+        "email":"mitsuki@google.com"
+    },
+    {
+        "userID":"ayasthetic._",
+        "name":"Aya",
+        "age":23,
+        "phone number":"8512379601",
+        "email":"aya@google.com"
+    }
+]
