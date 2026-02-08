@@ -1,0 +1,29 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.Scanner;
+
+public class ClassInfo {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter class name (e.g. java.util.ArrayList): ");
+        String className = sc.nextLine();
+
+        Class<?> clazz = Class.forName(className);
+
+        System.out.println("\n--- Fields ---");
+        for (Field f : clazz.getDeclaredFields()) {
+            System.out.println(f);
+        }
+
+        System.out.println("\n--- Methods ---");
+        for (Method m : clazz.getDeclaredMethods()) {
+            System.out.println(m);
+        }
+
+        System.out.println("\n--- Constructors ---");
+        for (Constructor<?> c : clazz.getDeclaredConstructors()) {
+            System.out.println(c);
+        }
+    }
+}
