@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1e658ad-09b5-4b23-814c-02ca0d2e2499" name="Changes" comment="solved sonar lint problem" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="collection-framework" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alwaysHarshit&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alwaysHarshit/BridgeLabz-Training.git&quot;,
+    &quot;accountId&quot;: &quot;296152dd-fe3d-4a70-8dd2-0d9611f45baa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="39Nz3baB3t3r0Phe8NOrjxaCE4V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CountRowsOfCsvFile.executor": "Run",
+    "Application.FilterStudentsByMarks.executor": "Run",
+    "Application.MultiVehicleRentalSystem.executor": "Run",
+    "Application.ReadCsvAndPrintData.executor": "Run",
+    "Application.SmartDeviceControlInterface.executor": "Run",
+    "Application.SmartDevicesInterface.executor": "Run",
+    "Application.TemperatureAlertSystem.executor": "Run",
+    "Application.WriteDataToCSVFile.executor": "Run",
+    "Application.csv.basic.problems.ReadCsvAndPrintData.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "java8-features-practice",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/capgi-training/BridgeLabz-Training",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\capgi-training\BridgeLabz-Training\java8-features-practice\gcr-codebase" />
+      <recent name="F:\capgi-training\BridgeLabz-Training\io-programming-practice\gcr-codebase\csv\basic.problems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.calculatorBySwitchcase">
+    <configuration name="CheckLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckLargestNumber" />
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayOfWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DayOfWeek" />
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorBySwitchcase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculatorBySwitchcase" />
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkAbundentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkAbundentNumber" />
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkHarshadNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkHarshadNumber" />
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BridgeLabz-Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BridgeLabz-Training" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DayOfWeek" />
+        <item itemvalue="Application.CheckLargestNumber" />
+        <item itemvalue="Application.checkHarshadNumber" />
+        <item itemvalue="Application.checkAbundentNumber" />
+        <item itemvalue="Application.calculatorBySwitchcase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1e658ad-09b5-4b23-814c-02ca0d2e2499" name="Changes" comment="" />
+      <created>1770551117640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770551117640</updated>
+      <workItem from="1770551118940" duration="9279000" />
+      <workItem from="1770614085794" duration="1238000" />
+      <workItem from="1770615339370" duration="111000" />
+      <workItem from="1770615487197" duration="1477000" />
+      <workItem from="1770619501402" duration="35000" />
+      <workItem from="1770619548481" duration="47000" />
+      <workItem from="1770619643295" duration="44000" />
+      <workItem from="1770619697149" duration="3194000" />
+      <workItem from="1770787830479" duration="541000" />
+      <workItem from="1770788476195" duration="1878000" />
+      <workItem from="1770887712770" duration="8000" />
+    </task>
+    <task id="LOCAL-00001" summary="Introduction to CSV&#10;Reading CSV Files&#10;Writing CSV Files&#10;Parsing CSV Data&#10;Data Validation">
+      <option name="closed" value="true" />
+      <created>1770556771970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770556771970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="solved collectors problems">
+      <option name="closed" value="true" />
+      <created>1770557207892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770557207892</updated>
+    </task>
+    <task id="LOCAL-00003" summary="solved reflection problems">
+      <option name="closed" value="true" />
+      <created>1770559804247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770559804247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="solved funcctional interface  problems">
+      <option name="closed" value="true" />
+      <created>1770621253760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770621253760</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solved lambda and stream api  problems">
+      <option name="closed" value="true" />
+      <created>1770621476495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770621476495</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solved stream buzz problem">
+      <option name="closed" value="true" />
+      <created>1770788125776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770788125776</updated>
+    </task>
+    <task id="LOCAL-00007" summary="solved multithrading problems">
+      <option name="closed" value="true" />
+      <created>1770788803086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770788803086</updated>
+    </task>
+    <task id="LOCAL-00008" summary="solved address book proble">
+      <option name="closed" value="true" />
+      <created>1770789583506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770789583506</updated>
+    </task>
+    <task id="LOCAL-00009" summary="solved sonar lint problem">
+      <option name="closed" value="true" />
+      <created>1770789920350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770789920350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="ClassesAndObjects" />
+    <module name="Inheritance" />
+    <module name="gcr-codebase" />
+    <module name="java8-features-practice" />
+    <module name="oops-practice" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Introduction to CSV&#10;Reading CSV Files&#10;Writing CSV Files&#10;Parsing CSV Data&#10;Data Validation" />
+    <MESSAGE value="solved collectors problems" />
+    <MESSAGE value="solved reflection problems" />
+    <MESSAGE value="solved funcctional interface  problems" />
+    <MESSAGE value="solved lambda and stream api  problems" />
+    <MESSAGE value="solved stream buzz problem" />
+    <MESSAGE value="solved multithrading problems" />
+    <MESSAGE value="solved address book proble" />
+    <MESSAGE value="solved sonar lint problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved sonar lint problem" />
+  </component>
+</project>
