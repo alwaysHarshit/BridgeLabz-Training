@@ -1,0 +1,395 @@
+Index: java8-features-practice/gcr-codebase/mock1/question3/CourseEnrollmentAnalyzer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/java8-features-practice/gcr-codebase/mock1/question3/CourseEnrollmentAnalyzer.java b/java8-features-practice/gcr-codebase/mock1/question3/CourseEnrollmentAnalyzer.java
+new file mode 100644
+--- /dev/null	(date 1770787778778)
++++ b/java8-features-practice/gcr-codebase/mock1/question3/CourseEnrollmentAnalyzer.java	(date 1770787778778)
+@@ -0,0 +1,38 @@
++package question3;
++
++import java.util.List;
++import java.util.Scanner;
++
++public class CourseEnrollmentAnalyzer {
++    public static void main(String[] args) {
++
++        TrainingService trainingService=new TrainingService();
++
++        List<Enrollment> list = List.of(
++                new Enrollment("Harshit", "Java", "10/12/2020"),
++                new Enrollment("Amit", "Python", "11/12/2020"),
++                new Enrollment("Riya", "Java", "12/12/2020"),
++                new Enrollment("Neha", "C++", "13/12/2020"),
++                new Enrollment("Rahul", "Python", "14/12/2020"),
++                new Enrollment("Priya", "Java", "15/12/2020"),
++                new Enrollment("Karan", "C", "16/12/2020"),
++                new Enrollment("Sneha", "Java", "17/12/2020"),
++                new Enrollment("Vikram", "Python", "18/12/2020"),
++                new Enrollment("Anita", "C++", "19/12/2020")
++        );
++
++        for (Enrollment enrollment : list) {
++            //validate
++            if(!enrollment.getStudentName().matches("^[a-zA-Z]+$") || !enrollment.getCourseName().matches("^[a-zA-Z+]+$")) throw new RuntimeException("Invalid student name or course name");
++
++            //creating object
++            trainingService.add(enrollment);
++        }
++
++        trainingService.filterbycategory("Java");
++
++        trainingService.countEnrollments();
++
++        trainingService.sortByDate();
++    }
++}
+Index: java8-features-practice/gcr-codebase/mock1/question3/Enrollment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/java8-features-practice/gcr-codebase/mock1/question3/Enrollment.java b/java8-features-practice/gcr-codebase/mock1/question3/Enrollment.java
+new file mode 100644
+--- /dev/null	(date 1770787778800)
++++ b/java8-features-practice/gcr-codebase/mock1/question3/Enrollment.java	(date 1770787778800)
+@@ -0,0 +1,33 @@
++package question3;
++
++public class Enrollment {
++
++    private String studentName;
++    private String courseName;
++    private String date;
++
++    public Enrollment(String studentName, String courceName, String date) {
++        this.studentName = studentName;
++        this.courseName = courceName;
++        this.date = date;
++    }
++
++    public String getStudentName() {
++        return studentName;
++    }
++
++    public String getCourseName() {
++        return courseName;
++    }
++
++    public String getDate() {
++        return date;
++    }
++
++    public  void print(){
++        System.out.println("Student name is " + studentName);
++        System.out.println("Course name is " + courseName);
++        System.out.println("Date is " + date);
++        System.out.println("-----------------------------");
++    }
++}
+Index: java8-features-practice/gcr-codebase/mock1/question3/TrainingService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/java8-features-practice/gcr-codebase/mock1/question3/TrainingService.java b/java8-features-practice/gcr-codebase/mock1/question3/TrainingService.java
+new file mode 100644
+--- /dev/null	(date 1770787778823)
++++ b/java8-features-practice/gcr-codebase/mock1/question3/TrainingService.java	(date 1770787778823)
+@@ -0,0 +1,67 @@
++package question3;
++
++import java.time.LocalDate;
++import java.time.format.DateTimeFormatter;
++import java.util.ArrayList;
++import java.util.Comparator;
++import java.util.List;
++import java.util.Map;
++import java.util.stream.Collectors;
++
++public class TrainingService {
++    List<Enrollment> list;
++
++    public TrainingService() {
++        list = new ArrayList<>();
++    }
++
++    //add to the the list
++    public void add(Enrollment e) {
++        list.add(e);
++    }
++
++    // Filter enrollments by course category
++    public void filterbycategory(String filterCategory) {
++        System.out.println("this is from filter by caterfory \n");
++
++        /* this is one way to filter and print
++        List<Enrollment> list1 = list.stream()
++                .filter(enrollment -> enrollment.getCourseName().equals(filterCategory))
++                .toList();
++        list1.stream().forEach(e -> System.out.printf("student name %s cource name %s data %s \n",e.getStudentName(),e.getCourseName(),e.getDate()));
++         */
++
++
++        /* this is another is in which we took help of method reference
++        here we have created a print method in enorllment and here we direclty referencing it
++
++         */
++        list.stream().
++                filter(enrollment -> enrollment.getCourseName().equalsIgnoreCase(filterCategory))
++                .toList().forEach(Enrollment::print);
++    }
++
++    //count enrollment per category
++    public void countEnrollments() {
++        /*
++        here group by return map . and we can't direclty stream over map  so here
++        groupingBy(Enrollment::getCourseName, counting()) → gives: Map<String, Long> like:
++        forEach((course, count) -> ...) prints each pair
++         */
++        list.stream()
++                .collect(Collectors.groupingBy(Enrollment::getCourseName, Collectors.counting()))
++                .forEach((course, count) ->
++                        System.out.println(course + " -> " + count)
++                );
++
++    }
++
++    //Sort enrollments by enrollment date
++    public  void sortByDate(){
++        list.stream().
++                sorted(Comparator.
++                        comparing(e-> LocalDate.parse(e.getDate(),DateTimeFormatter.ofPattern("dd/MM/yyyy"))))
++                .forEach(Enrollment::print);
++    }
++
++}
+Index: io-programming-practice/scenario-based/StreamBuzz.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/io-programming-practice/scenario-based/StreamBuzz.java b/io-programming-practice/scenario-based/StreamBuzz.java
+new file mode 100644
+--- /dev/null	(date 1770788025893)
++++ b/io-programming-practice/scenario-based/StreamBuzz.java	(date 1770788025893)
+@@ -0,0 +1,216 @@
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.Scanner;
++
++// Class to store creator details
++class CreatorStats {
++
++    // Store creator name
++    private String creatorName;
++
++    // Store weekly likes (4 weeks)
++    private double[] weeklyLikes;
++
++    // Static list to store all creators
++    public static ArrayList<CreatorStats> EngagementBoard =
++            new ArrayList<>();
++    public String getCreatorName() {
++        return creatorName;
++    }
++
++    public void setCreatorName(String creatorName) {
++        this.creatorName = creatorName;
++    }
++    public double[] getWeeklyLikes() {
++        return weeklyLikes;
++    }
++
++    public void setWeeklyLikes(double[] weeklyLikes) {
++        this.weeklyLikes = weeklyLikes;
++    }
++}
++
++// Main class
++public class StreamBuzz {
++
++    // Method to register creator
++    public void registerCreator(CreatorStats record) {
++        CreatorStats.EngagementBoard.add(record);
++    }
++
++    // Method to get top post counts
++    public HashMap<String, Integer> getTopPostCounts(
++            ArrayList<CreatorStats> records,
++            double likeThreshold) {
++
++        HashMap<String, Integer> result =
++                new HashMap<>();
++
++        for (CreatorStats creator : records) {
++
++            int count = 0;
++
++            // Check weekly likes
++            for (double likes : creator.getWeeklyLikes()) {
++
++                if (likes >= likeThreshold) {
++                    count++;
++                }
++            }
++
++            if (count > 0) {
++                result.put(
++                        creator.getCreatorName(),
++                        count
++                );
++            }
++        }
++
++        return result;
++    }
++
++    public double calculateAverageLikes() {
++
++        double total = 0;
++        int count = 0;
++        for (CreatorStats creator :
++                CreatorStats.EngagementBoard) {
++
++            for (double likes :
++                    creator.getWeeklyLikes()) {
++
++                total += likes;
++                count++;
++            }
++        }
++        if (count == 0) {
++            return 0;
++        }
++
++        return total / count;
++    }
++
++    // Main method
++    public static void main(String[] args) {
++
++        Scanner sc = new Scanner(System.in);
++
++        StreamBuzz obj = new StreamBuzz();
++
++        boolean running = true;
++
++        while (running) {
++
++            // Menu
++            System.out.println("1. Register Creator");
++            System.out.println("2. Show Top Posts");
++            System.out.println("3. Calculate Average Likes");
++            System.out.println("4. Exit");
++
++            System.out.println("Enter your choice:");
++
++            int choice = sc.nextInt();
++            sc.nextLine(); // clear buffer
++
++            switch (choice) {
++
++                case 1:
++                    CreatorStats cs =
++                            new CreatorStats();
++
++                    System.out.println(
++                            "Enter Creator Name:");
++
++                    cs.setCreatorName(
++                            sc.nextLine());
++
++                    double[] likes =
++                            new double[4];
++
++                    System.out.println(
++                            "Enter weekly likes (Week 1 to 4):");
++
++                    // Take 4 weeks input
++                    for (int i = 0; i < 4; i++) {
++
++                        likes[i] = sc.nextDouble();
++                    }
++                    sc.nextLine();
++
++                    cs.setWeeklyLikes(likes);
++
++                    obj.registerCreator(cs);
++
++                    System.out.println(
++                            "Creator registered successfully");
++
++                    break;
++
++                case 2:
++
++                    // Show top posts
++                    System.out.println(
++                            "Enter like threshold:");
++
++                    double threshold =
++                            sc.nextDouble();
++
++                    sc.nextLine();
++
++                    HashMap<String, Integer> data =
++                            obj.getTopPostCounts(
++                                    CreatorStats.EngagementBoard,
++                                    threshold);
++
++                    if (data.isEmpty()) {
++
++                        System.out.println(
++                                "No top-performing posts this week");
++                    }
++                    else {
++
++                        for (String name :
++                                data.keySet()) {
++
++                            System.out.println(
++                                    name + " - " +
++                                            data.get(name));
++                        }
++                    }
++
++                    break;
++
++                case 3:
++
++                    // Calculate average
++                    double avg =
++                            obj.calculateAverageLikes();
++
++                    System.out.println(
++                            "Overall average weekly likes: " +
++                                    avg);
++
++                    break;
++
++                case 4:
++
++                    System.out.println(
++                            "Logging off - Keep Creating with StreamBuzz!");
++
++                    running = false;
++
++                    break;
++
++                default:
++
++                    System.out.println(
++                            "Invalid choice. Try again.");
++
++                    break;
++            }
++            System.out.println();
++        }
++
++        sc.close();
++    }
++}
+\ No newline at end of file

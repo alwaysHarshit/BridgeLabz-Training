@@ -1,0 +1,28 @@
+Index: .gitIgnore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.idea/\r\nout/\r\n\r\nmultithreading-pratice/multithreading-pratice.iml
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitIgnore b/.gitIgnore
+--- a/.gitIgnore	(revision 8c2cf08cc47fa775a29aec4024ef9b59b08fe04a)
++++ b/.gitIgnore	(date 1770789734311)
+@@ -1,4 +1,15 @@
++# Compiled class files
++*.class
++
++# IDE - IntelliJ IDEA
+ .idea/
++*.iml
++*.iws
++
++# Build output
+ out/
+ 
+-multithreading-pratice/multithreading-pratice.iml
+\ No newline at end of file
++# System files
++.DS_Store
++Thumbs.db
++/bin/
