@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/oops-practice/gcr-codebase/gcr-codebase.iml" filepath="$PROJECT_DIR$/oops-practice/gcr-codebase/gcr-codebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/io-programming-practice/io-programming-practice.iml" filepath="$PROJECT_DIR$/io-programming-practice/io-programming-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8-features-practice/java8-features-practice.iml" filepath="$PROJECT_DIR$/java8-features-practice/java8-features-practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oops-practice/oops-practice.iml" filepath="$PROJECT_DIR$/oops-practice/oops-practice.iml" />
     </modules>
   </component>
 </project>
