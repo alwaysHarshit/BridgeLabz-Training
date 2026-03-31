@@ -1,2 +1,4 @@
-.idea/
+.idea
+.gitIgnore
 out/
+collection-frameworks/collection-frameworks.iml
